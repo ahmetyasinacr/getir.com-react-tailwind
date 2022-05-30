@@ -1,7 +1,8 @@
 import {useState} from 'react'
 import Slider from 'react-slick';
 import ReactFlagsSelect from 'react-flags-select';
-import {FaFacebook} from 'react-icons/fa';
+import {FaFacebook,} from 'react-icons/fa';
+
 
 function HeroSection() {
 
@@ -23,6 +24,7 @@ function HeroSection() {
 		FR: '+70',
 		DE: '+30',
 		IT: '+11',
+		
 		TR: '+90',
 	}
 
@@ -79,10 +81,11 @@ function HeroSection() {
 								</span>
 							</button>
 						</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	)
 }
 
